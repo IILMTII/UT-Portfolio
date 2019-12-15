@@ -1,5 +1,6 @@
 header {
   background-color: #ffffff;
+  border-color: #cccccc;
   position: fixed;
   left: 0;
   top: 0;
@@ -7,6 +8,7 @@ header {
   width: 100%;
   font-size: 32px;
   font-family: 'Georgia';
+  display: flex;
 }
 
 body {
@@ -19,11 +21,17 @@ body {
 } 
 
 .wrapper{
-  
-  width:800px;
+  width:960px;
   margin:120px auto;
   padding:20px;
   background: #ffffff;
+}
+
+.H_Label{
+  width:960px;
+  bottom: 0;
+  display: inline-block;
+  margin:auto;
 }
 
 .contact{
