@@ -1,4 +1,66 @@
+header {
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  font-size: 32px;
+  font-family: 'Georgia';
+}
+
 body {
-  background-image: url("assets/images/criss-cross.png");
-  background-repeat:repeat;
-}  
+  font-family: 'Arial';
+} 
+
+#photo {
+  height: 100px;
+  width: 100px;
+} 
+
+.wrapper{
+  
+  width:800px;
+  margin:120px auto;
+  padding:20px;
+  background: #ffffff;
+}
+
+.contact{
+  float:right;
+  height:10px;
+  margin:20px;
+  margin-top:0px;
+}
+
+.portfolio{
+  float:right;
+  height:10px;
+  margin:20px;
+  margin-top:0px;
+}
+
+.index{
+  float:right;
+  height:10px;
+  margin:20px;
+  margin-top:0px;
+}
+
+.copyright{
+  position: absolute;
+  bottom:0;
+  display: inline-block;
+}
+
+footer {
+  display: table-cell;
+  background-color: #666666;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
