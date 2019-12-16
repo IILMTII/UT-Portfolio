@@ -1,4 +1,4 @@
-header {
+header{
   background-color: #ffffff;
   border-color: #cccccc;
   position: fixed;
@@ -10,73 +10,127 @@ header {
   display: flex;
 }
 
-body {
-  font-family: 'Arial';
-} 
+span{
+  font-size: 20px;
+}
 
-#photo {
-  height: 100px;
-  width: 100px;
+h1{
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+body{
+  font-family: 'Arial';
+  font-size:24px;
+  line-height:32px;
+  color:#777777;
+  background-color: #ffffff;
+}
+
+hr{
+  border: 0;
+  border-top: 3px solid #ccc;
+  margin: 1em 0;
+}
+
+#photo{
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 } 
 
 .wrapper{
   width:960px;
   margin:120px auto;
-  padding:20px;
+  padding:30px;
   background: #ffffff;
+  border: 1px solid #dddddd;
 }
 
 .H_Label{
-  width:1000px;
+  width:1020px;
   bottom: 0;
-  display: inline-block;
   margin:auto;
+  display: flex;
+  justify-content: flex-end; 
 }
 
 #name{
   background: #4aaaa5;
   color: white; 
   padding: 30px;
-  margin:0px;
-  display: inline-block;
+  margin-right: 488px;
+  overflow: hidden;
+  width: max-content;
 }
 
 .contact{
-  float:right;
   height:10px;
   margin: 10px;
   margin-top:30px;
   margin-right:0px;
+  color:#777777;
 }
 
 .portfolio{
-  float:right;
   height:10px;
   margin: 10px;
   margin-top:30px;
+  color:#777777;
 }
 
 .index{
-  float:right;
   height:10px;
   margin: 10px;
   margin-top:30px;
+  color:#777777;
+}
+
+a:link{
+  color:#777777;
+}
+
+a:visited{
+  color:#777777;
+}
+
+a:hover{
+  color:#4aaaa5;
 }
 
 .copyright{
   position: absolute;
   bottom:0;
   display: inline-block;
+  font-size: 10px;
 }
 
-footer {
+footer{
   display: table-cell;
   background-color: #666666;
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 100px;
+  height: 60px;
   width: 100%;
   text-align: center;
   color: white;
+  border-top: 8px solid #4aaaa5;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
