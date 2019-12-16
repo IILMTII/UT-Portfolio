@@ -8,6 +8,7 @@ header{
   font-size: 30px;
   font-family: 'Georgia';
   display: flex;
+  z-index: 1;
 }
 
 span{
@@ -17,6 +18,7 @@ span{
 h1{
   font-size: 30px;
   margin-top: 0px;
+  font-family: 'Georgia';
 }
 
 body{
@@ -33,6 +35,15 @@ hr{
   margin: 1em 0;
 }
 
+.divider {
+  border-left: 1px solid #ccc;
+  height: 20px;
+  margin: 36px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
 #photo{
   height: 200px;
   width: 200px;
@@ -41,6 +52,37 @@ hr{
   margin-bottom: 0px;
   margin-left: 0px;
 } 
+
+img{
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.img-container{
+  display: inline-block;
+  position: relative;
+}
+
+.positioning{
+  position: absolute;
+  background-color: #4aaaa5;
+  text-align: center;
+  line-height: bottom;
+  top: 140px;
+  color: white;
+  padding: 0px;
+  font-family: serif;
+  font-size: 20px;
+  line-height: 50px;
+  margin: -30px;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 87%;
+  height: 50px;
+}
 
 .wrapper{
   width:960px;
@@ -62,7 +104,7 @@ hr{
   background: #4aaaa5;
   color: white; 
   padding: 30px;
-  margin-right: 488px;
+  margin-right: 486px;
   overflow: hidden;
   width: max-content;
 }
@@ -123,14 +165,39 @@ footer{
 
 input[type=text]{
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 10px 10px;
+  margin: 5px 0;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 textarea{
   width: 100%;
-  padding: 12px 20px;
+  padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.submit{
+  display: inline-block;
+  position: relative;
+  padding: 90px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+
+.spositioning{
+  position: absolute;
+  background-color: #4aaaa5;
+  text-align: center;
+  line-height: bottom;
+  left: 0px;
+  color: white;
+  font-family: Georgia;
+  line-height: 50px;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 80%;
 }
