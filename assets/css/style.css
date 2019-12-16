@@ -4,9 +4,8 @@ header {
   position: fixed;
   left: 0;
   top: 0;
-  height: 100px;
   width: 100%;
-  font-size: 32px;
+  font-size: 30px;
   font-family: 'Georgia';
   display: flex;
 }
@@ -28,31 +27,40 @@ body {
 }
 
 .H_Label{
-  width:960px;
+  width:1000px;
   bottom: 0;
   display: inline-block;
   margin:auto;
 }
 
+#name{
+  background: #4aaaa5;
+  color: white; 
+  padding: 30px;
+  margin:0px;
+  display: inline-block;
+}
+
 .contact{
   float:right;
   height:10px;
-  margin:20px;
-  margin-top:0px;
+  margin: 10px;
+  margin-top:30px;
+  margin-right:0px;
 }
 
 .portfolio{
   float:right;
   height:10px;
-  margin:20px;
-  margin-top:0px;
+  margin: 10px;
+  margin-top:30px;
 }
 
 .index{
   float:right;
   height:10px;
-  margin:20px;
-  margin-top:0px;
+  margin: 10px;
+  margin-top:30px;
 }
 
 .copyright{
