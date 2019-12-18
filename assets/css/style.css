@@ -1,7 +1,6 @@
 header{
   background-color: #ffffff;
   border-color: #cccccc;
-  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -98,6 +97,7 @@ img{
   margin:auto;
   display: flex;
   justify-content: flex-end; 
+  background-color: white;
 }
 
 #name{
